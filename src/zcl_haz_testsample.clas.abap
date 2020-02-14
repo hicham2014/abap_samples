@@ -16,6 +16,6 @@ CLASS ZCL_HAZ_TESTSAMPLE IMPLEMENTATION.
 
 
   METHOD execute.
-    WRITE : 'HELOOOO'.
+    MESSAGE I004(zbadicheck). "This is the intented result of the test case!
   ENDMETHOD.
 ENDCLASS.
