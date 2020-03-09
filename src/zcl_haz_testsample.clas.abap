@@ -1,12 +1,13 @@
 CLASS zcl_haz_testsample DEFINITION
   PUBLIC
   FINAL
-  CREATE PUBLIC.
+  CREATE PUBLIC .
 
   PUBLIC SECTION.
-"! <p class="shorttext synchronized">Read items from DB</p>
-"! Method reads invoice items from the database
-"!
+
+    "! <p class="shorttext synchronized"></p>
+    "! Method reads invoice items from the database
+    "!
     METHODS execute .
   PROTECTED SECTION.
   PRIVATE SECTION.
