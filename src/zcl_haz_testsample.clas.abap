@@ -1,13 +1,13 @@
-class ZCL_HAZ_TESTSAMPLE definition
-  public
-  final
-  create public .
+CLASS zcl_haz_testsample DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
 
-public section.
+  PUBLIC SECTION.
 
-  methods EXECUTE .
-protected section.
-private section.
+    METHODS execute .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
@@ -16,6 +16,7 @@ CLASS ZCL_HAZ_TESTSAMPLE IMPLEMENTATION.
 
 
   METHOD execute.
-    MESSAGE I004(zbadicheck). "This is the intented result of the test case!
+* This is the intented result of the test case!
+    MESSAGE i004(zbadicheck).
   ENDMETHOD.
 ENDCLASS.

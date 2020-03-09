@@ -6,9 +6,9 @@ CLASS lcl_name_factory DEFINITION FINAL.
   PUBLIC SECTION.
     CLASS-METHODS get_greeting
       IMPORTING
-        iv_name            TYPE string "Test Test
+        iv_name            TYPE string
       RETURNING
-        value(rv_greeting) TYPE string.
+        VALUE(rv_greeting) TYPE string.
 ENDCLASS.
 CLASS lcl_name_factory IMPLEMENTATION.
   METHOD get_greeting.

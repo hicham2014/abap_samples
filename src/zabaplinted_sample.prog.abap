@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZABAPLINTED_SAMPLE.
+REPORT zabaplinted_sample.
 
 INCLUDE zabaplinted_sample_include.
 
