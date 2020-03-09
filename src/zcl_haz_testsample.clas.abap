@@ -1,11 +1,11 @@
-CLASS zcl_haz_testsample DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_HAZ_TESTSAMPLE definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
+public section.
 
-    METHODS execute.
+  methods EXECUTE .
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
