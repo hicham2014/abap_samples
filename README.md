@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/hicham2014/abap_samples.svg?branch=NPLK900087)](https://travis-ci.com/hicham2014/abap_samples)
+
 
 # abap_samples
 Repository for AS ABAP 752 SP04, developer edition
