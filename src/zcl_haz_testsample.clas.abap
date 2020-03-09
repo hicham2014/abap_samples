@@ -19,6 +19,6 @@ CLASS ZCL_HAZ_TESTSAMPLE IMPLEMENTATION.
 
   METHOD execute.
 * This is the intented result of the test case!
-    MESSAGE |This is the intented result of the test case!| TYPE 'I'.  .
+    MESSAGE |This is the intented result of the test case!| TYPE 'I'.
   ENDMETHOD.
 ENDCLASS.
